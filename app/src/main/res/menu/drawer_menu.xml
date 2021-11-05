@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Fragment Superior">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/menu_top_amarelo"
+                    android:icon="@drawable/ic_arrow_up"
+                    app:itemIconTint="#FFF800"
+                    android:title="Superior Amarelo" />
+
+                <item
+                    android:id="@+id/menu_top_azul"
+                    android:icon="@drawable/ic_arrow_up"
+                    android:title="Superior Azul" />
+
+                <item
+                    android:id="@+id/menu_top_vermelho"
+                    android:icon="@drawable/ic_arrow_up"
+                    android:title="Superior Vermelho" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Fragment Inferior">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/menu_bot_amarelo"
+                    android:icon="@drawable/ic_arrow_down"
+                    android:title="Inferior Amarelo" />
+
+                <item
+                    android:id="@+id/menu_bot_azul"
+                    android:icon="@drawable/ic_arrow_down"
+                    android:title="Inferior Azul" />
+
+                <item
+                    android:id="@+id/menu_bot_vermelho"
+                    android:icon="@drawable/ic_arrow_down"
+                    android:title="Inferior Vermelho" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_dice_toast"
+        android:icon="@drawable/ic_game"
+        android:title="Jogar dado" />
+
+</menu>
